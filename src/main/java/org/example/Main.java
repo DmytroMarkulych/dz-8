@@ -12,12 +12,12 @@ public class Main {
         Student student2 = new Student(2, "Jane", "Smith");
         Student student3 = new Student(3, "Alice", "Brown");
         Student student4 = new Student(4, "Jery", "Smith");
-        Student student5 = new Student(5, "Nick", "Smith");
+
 
         studentsGroup.addStudent(student2);
         studentsGroup.addStudent(student3);
         studentsGroup.addStudent(student4);
-        studentsGroup.addStudent(student5);
+
 
         // Додавання завдань
         studentsGroup.addTask("Вивчити інкапсуляцію");
